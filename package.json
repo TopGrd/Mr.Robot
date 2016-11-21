@@ -1,0 +1,24 @@
+{
+  "name": "mrbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": {
+    "mrbot": "bin/robot.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cheerio": "^0.22.0",
+    "cli-table": "^0.3.1",
+    "clui": "^0.3.1",
+    "commander": "^2.9.0",
+    "figlet": "^1.2.0",
+    "keypress": "^0.2.1",
+    "lodash": "^4.17.2",
+    "prompt": "^1.0.0",
+    "request": "^2.79.0"
+  }
+}
