@@ -20,9 +20,8 @@ console.log(
 program.version('0.0.1');
 program.on('--help', ()=> {
   console.log(chalk.cyan('  1.Mr.Robot 你的贴身助手！'));
-  console.log(chalk.cyan('  2.对话过程中如需退出，请输入英文: exit！'));
-  console.log(chalk.cyan('  3.作者信息: Youko<topgrd@outlook.com>'));
-  console.log(chalk.cyan('  4.发布时间: 2016-11-16'));
+  console.log(chalk.cyan('  2.作者信息: Youko<topgrd@outlook.com>'));
+  console.log(chalk.cyan('  3.发布时间: 2016-11-21'));
 });
 
 program
