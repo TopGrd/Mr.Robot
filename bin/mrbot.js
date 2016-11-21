@@ -51,8 +51,8 @@ program
   .on('--help', function() {
     console.log('  Examples:');
     console.log('');
-    console.log('\t$ do magnet -n WestWorld');
-    console.log('\t$ do m -n WestWorld');
+    console.log('\t$ mrbot magnet -n WestWorld');
+    console.log('\t$ mrbot m -n WestWorld');
   });
 
   program
@@ -82,8 +82,8 @@ program
     .on('--help', function() {
       console.log('  Examples:');
       console.log('');
-      console.log('\t$ do series');
-      console.log('\t$ do s');
+      console.log('\t$ mrbot series');
+      console.log('\t$ mrbot s');
     });
 
 program.parse(argv);

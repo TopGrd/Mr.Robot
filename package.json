@@ -7,7 +7,7 @@
     "start": "node ."
   },
   "bin": {
-    "mrbot": "bin/robot.js"
+    "mrbot": "bin/mrbot.js"
   },
   "dependencies": {
     "chalk": "^1.1.3",
